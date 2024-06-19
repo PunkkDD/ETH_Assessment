@@ -20,7 +20,6 @@ The nwmint function in the MyToken Solidity contract is designed to increase the
 
 
 
-
 // burn function
     function newBurn (address _address, uint _value) public{
         if(newBalances[_address] >= _value){
